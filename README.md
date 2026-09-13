@@ -20,11 +20,15 @@ Install via comfyui manager or:
    ```bash
    cd ComfyUI/custom_nodes
    ```
-2. Clone this repository:
+   Alternatively you can also navigate to your custom_nodes folder manually,
+   then type cmd and then copy and paste the code below.
+
+   
+3. Clone this repository:
    ```bash
    git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
    ```
-3. Completely restart ComfyUI and refresh your browser.
+
 
 ## How to Use
 
