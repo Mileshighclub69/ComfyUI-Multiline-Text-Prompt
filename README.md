@@ -16,13 +16,15 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 
 Install via comfyui manager or:
 
-1. Navigate to your ComfyUI custom nodes directory:
+1. Navigate to your ComfyUI custom nodes directory in cmd:
    ```bash
    cd ComfyUI/custom_nodes
    ```
+   
    Alternatively you can also navigate to your custom_nodes folder manually,
-   then type cmd into the file explorers bar and then copy and paste the code below.
+   then type cmd into the file explorers bar and then copy and paste the code below into the command window.
 <img width="1148" height="114" alt="image" src="https://github.com/user-attachments/assets/38d2972e-46f2-4d1a-9c10-3bc6b7d89769" />
+
 
    
 3. Clone this repository:
