@@ -1,0 +1,16 @@
+[project]
+name = "multiline-text-prompt"
+description = "A node that sequentially executes a list of prompts line-by-line from a single text box."
+version = "1.0.0"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = "mileshighclub"
+DisplayName = "Multiline Text Prompt"
+Icon = ""
+includes = []
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
