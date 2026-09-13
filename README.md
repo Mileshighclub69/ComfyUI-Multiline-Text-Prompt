@@ -2,6 +2,9 @@
 
 A lightweight, zero-dependency custom node for ComfyUI that sequentially executes a list of prompts line-by-line from a single text box. Perfect for batching 100+ generations smoothly without messy routing nodes.
 
+<img width="1136" height="832" alt="{6307E341-7E39-4BA8-AE1A-AB6CBB378A0B}" src="https://github.com/user-attachments/assets/70b4db48-6b62-49fa-9b2e-09d4bdcc5952" />
+
+
 ## Features
 
 - **Multiline Input:** Paste your prompt list directly, using one line per unique prompt.
