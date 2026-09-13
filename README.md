@@ -14,6 +14,8 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 
 ## Installation
 
+Install via comfyui manager or:
+
 1. Navigate to your ComfyUI custom nodes directory:
    ```bash
    cd ComfyUI/custom_nodes
