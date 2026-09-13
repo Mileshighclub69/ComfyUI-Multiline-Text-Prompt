@@ -25,9 +25,10 @@ Install via comfyui manager or:
    then type cmd into the file explorers bar and then copy and paste the code below into the command window.
 <img width="1148" height="114" alt="image" src="https://github.com/user-attachments/assets/38d2972e-46f2-4d1a-9c10-3bc6b7d89769" />
 
-
+-
+-
    
-3. Clone this repository:
+2. Clone this repository:
    ```bash
    git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
    ```
