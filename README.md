@@ -17,7 +17,7 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
    ```
 2. Clone this repository:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
    ```
 3. Completely restart ComfyUI and refresh your browser.
 
@@ -27,7 +27,6 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 2. Connect `current_prompt` directly into your **CLIP Text Encode** node.
 3. Paste your prompts into the text box (one distinct prompt per line).
 4. Set the `mode` dropdown to `increment`.
-5. Open the **Extra Options** panel under the main ComfyUI "Queue Prompt" button, set your **Batch count** to match your list size, and hit **Queue Prompt**.
 
 ## License
 
