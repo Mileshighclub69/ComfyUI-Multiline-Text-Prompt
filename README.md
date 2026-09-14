@@ -26,29 +26,6 @@ Install via ComfyUI Manager or:
    git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
    ```
 
-   Alternatively make a .txt file, paste this shit inside then change the .txt file to a .bat file and execute it.
-      ```bash
-  @echo off
-:: Step 1: Lock onto the portable root folder
-cd /d "%~dp0"
-
-:: Step 2: Go deep into the inner ComfyUI/custom_nodes folder
-cd "ComfyUI\custom_nodes"
-
-:: Diagnostic check: Print out where the terminal is right now
-echo Currently working inside: %CD%
-echo.
-
-:: Step 3: Run the clone command
-git clone https://github.com
-
-echo.
-echo Done! Your repo has been installed to custom_nodes.
-pause
-
-   ```
-
-
 
 ## How to Use
 
