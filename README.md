@@ -1,6 +1,6 @@
 # ComfyUI Multiline Prompt Sequencer
 
-A lightweight, zero-dependency custom node for ComfyUI that sequentially executes a list of prompts line-by-line from a single text box. Perfect for batching 100+ generations smoothly without messy routing nodes.
+A lightweight, zero-dependency custom node for ComfyUI that sequentially executes a list of prompts line-by-line from a single text box. Perfect for batching 100+ generations smoothly without messy routing nodes or download 500 node-nodepacks.
 
 <img width="1136" height="832" alt="{6307E341-7E39-4BA8-AE1A-AB6CBB378A0B}" src="https://github.com/user-attachments/assets/70b4db48-6b62-49fa-9b2e-09d4bdcc5952" />
 
@@ -8,23 +8,23 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 ## Features
 
 - **Multiline Input:** Paste your prompt list directly, using one line per unique prompt.
-- **Visual Auto-Counter:** The `current_line` widget physically ticks up or down on your dashboard in real-time.
 - **Seamless Looping:** Automatically wraps back around to the first line when it reaches the end of your list.
-- **Three Modes:** `increment` (move down the list), `decrease` (move up the list), and `fixed` (freeze on the current line).
 
+  
 ## Installation
 
-Install via ComfyUI Manager or:
-
-1. Navigate to your ComfyUI custom nodes directory in cmd:
-   ```bash
-   cd ComfyUI/custom_nodes
-   ```
-   
+### Option 1: Manual Installation
+1. Navigate to your `ComfyUI/custom_nodes` directory.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
+   git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt
    ```
+
+### Option 2: Windows Portable Automated Script
+If you use the ComfyUI Windows Portable version, you can automate this:
+1. Download [InstallMySneed.bat]([https://github.com](https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt/blob/main/InstallMySneed.bat)) and place it directly inside your `ComfyUI_windows_portable` folder.
+2. Double-click `setup_node.bat` to automatically jump to the correct directory and clone the repository.
+
 
 
 ## How to Use
