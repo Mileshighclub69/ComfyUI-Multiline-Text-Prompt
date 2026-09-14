@@ -14,24 +14,38 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 
 ## Installation
 
-Install via comfyui manager or:
+Install via ComfyUI Manager or:
 
 1. Navigate to your ComfyUI custom nodes directory in cmd:
    ```bash
    cd ComfyUI/custom_nodes
    ```
    
-   Alternatively you can also navigate to your custom_nodes folder manually,
-   then type cmd into the file explorers bar and then copy and paste the code below into the command window.
-<img width="1148" height="114" alt="image" src="https://github.com/user-attachments/assets/38d2972e-46f2-4d1a-9c10-3bc6b7d89769" />
-
--
--
-   
 2. Clone this repository:
    ```bash
    git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt.git
    ```
+
+   Alternatively use my InstallMyNode.bat, place it into the folder with your run_nvidia_gpu.bat file and execute it.
+   [Upl@echo off
+:: Step 1: Lock onto the portable root folder
+cd /d "%~dp0"
+
+:: Step 2: Go deep into the inner ComfyUI/custom_nodes folder
+cd "ComfyUI\custom_nodes"
+
+:: Diagnostic check: Print out where the terminal is right now
+echo Currently working inside: %CD%
+echo.
+
+:: Step 3: Run the clone command
+git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt
+
+echo.
+echo Done! Your repo has been installed to custom_nodes.
+pause
+oading InstallMyNode.bat…]()
+
 
 
 ## How to Use
