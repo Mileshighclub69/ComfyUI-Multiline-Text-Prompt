@@ -2,7 +2,7 @@
 
 A lightweight, zero-dependency custom node for ComfyUI that sequentially executes a list of prompts line-by-line from a single text box. Perfect for batching 100+ generations smoothly without messy routing nodes or download 500 node-nodepacks.
 
-<img width="1136" height="832" alt="{6307E341-7E39-4BA8-AE1A-AB6CBB378A0B}" src="https://github.com/user-attachments/assets/70b4db48-6b62-49fa-9b2e-09d4bdcc5952" />
+<img width="1612" height="739" alt="{E1BEF528-63A9-4EFB-A3F0-9648948A9655}" src="https://github.com/user-attachments/assets/9b3fd81d-5064-4f2e-bb1e-1e2c32f7b434" />
 
 
 ## Features
