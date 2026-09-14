@@ -20,12 +20,13 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
    git clone https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt
    ```
 
-### Option 2: Windows Portable Automated Script
-If you use the ComfyUI Windows Portable version, you can automate this:
-1. Either download [InstallMySneed.bat](https://raw.githubusercontent.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt/refs/heads/main/InstallMySneed.bat) and place it directly inside your `ComfyUI_windows_portable` folder.
+### Option 2: Manual Download (No Git Required)
+1. Download and extract the ZIP file from the [GitHub repository](https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt/archive/refs/heads/main.zip).
+2. Move the extracted folder into `ComfyUI/custom_nodes` so that it looks like `ComfyUI/custom_nodes/ComfyUI-Multiline-Text-Prompt`
 
-Or right click the link and `Save Link As...` into your `ComfyUI_windows_portable` (where your ComfyUI folder and .bat file for starting comfyui is.
-3. Double-click `InstallMySneed.bat` and it automatically installs the node.
+### Option 3: Automated Windows Script (.bat File) (git required)
+For the ComfyUI Windows Portable version, download [InstallMySneed.bat](https://raw.githubusercontent.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt/refs/heads/main/InstallMySneed.bat) into your `ComfyUI_windows_portable` folder and run it to automatically install the node.
+<br>Alternatively you can also right click the hyperlink and press `Save Link As...` and download it that way.
 
 
 
