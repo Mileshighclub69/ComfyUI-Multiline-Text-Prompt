@@ -22,8 +22,8 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
 
 ### Option 2: Windows Portable Automated Script
 If you use the ComfyUI Windows Portable version, you can automate this:
-1. Download [InstallMySneed.bat][https://github.com](https://github.com/Mileshighclub69/ComfyUI-Multiline-Text-Prompt/blob/main/InstallMySneed.bat) and place it directly inside your `ComfyUI_windows_portable` folder.
-2. Double-click `setup_node.bat` to automatically jump to the correct directory and clone the repository.
+1. Download [InstallMySneed.bat](https://github.com) and place it directly inside your `ComfyUI_windows_portable` folder.
+2. Double-click `InstallMySneed.bat` to automatically jump to the correct directory and clone the repository.
 
 
 
