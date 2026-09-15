@@ -13,6 +13,8 @@ A lightweight, zero-dependency custom node for ComfyUI that sequentially execute
   
 ## Installation
 
+Use the ComfyUI manager or:
+
 ### Option 1: Manual Installation
 1. Navigate to your `ComfyUI/custom_nodes` directory.
 2. Clone this repository:
