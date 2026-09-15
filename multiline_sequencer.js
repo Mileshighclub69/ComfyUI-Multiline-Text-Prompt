@@ -1,37 +1,23 @@
 import { app } from "../../../scripts/app.js";
+import { api } from "../../../scripts/api.js";
 
 app.registerExtension({
     name: "MultilinePromptSequencer.AutoIncrement",
-    async beforeRegisterNodeDef(nodeType, nodeData, app) {
-        if (nodeData.name === "MultilinePromptSequencer") {
-            const onExecuted = nodeType.prototype.onExecuted;
-            nodeType.prototype.onExecuted = function (message) {
-                if (onExecuted) onExecuted.apply(this, arguments);
+    async setup() {
+        // Listen for the custom update event from the backend
+        api.addEventListener("multiline_sequencer_update", (event) => {
+            const detail = event.detail;
+            if (!detail) return;
 
-                const currentLineWidget = this.widgets.find(w => w.name === "current_line");
-                const modeWidget = this.widgets.find(w => w.name === "mode");
-                const multilineTextWidget = this.widgets.find(w => w.name === "multiline_text");
-
-                if (!currentLineWidget || !modeWidget || !multilineTextWidget) return;
-
-                const text = multilineTextWidget.value || "";
-                const lines = text.split("\n").map(l => l.trim()).filter(l => l.length > 0);
-                const totalLines = lines.length || 1;
-
-                let currentVal = currentLineWidget.value;
-                const mode = modeWidget.value;
-
-                // Always seamlessly loop at boundaries
-                if (mode === "increment") {
-                    currentVal += 1;
-                    if (currentVal >= totalLines) currentVal = 0; 
-                } else if (mode === "decrease") {
-                    currentVal -= 1;
-                    if (currentVal < 0) currentVal = totalLines - 1; 
+            // Find the specific node on the canvas by its unique ID
+            const node = app.graph.getNodeById(detail.node_id);
+            if (node && node.widgets) {
+                // Find the current_line widget and update its value
+                const widget = node.widgets.find(w => w.name === "current_line");
+                if (widget) {
+                    widget.value = detail.next_line;
                 }
-
-                currentLineWidget.value = currentVal;
-            };
-        }
+            }
+        });
     }
 });
